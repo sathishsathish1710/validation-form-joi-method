@@ -1,12 +1,11 @@
-
-import './App.css';
-import FormComponent from './component/FormComponent';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import React from 'react';
+import Form from './Form';
 
 function App() {
   return (
     <div className="App">
-     <FormComponent/>
+      <h1>React Hook Form with Yup Validation</h1>
+      <Form />
     </div>
   );
 }
